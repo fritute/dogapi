@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#galeria{
+    display: columns;
+    background-color: black;
+    
+}
+#galeria img {
+    width: 25%; 
+    height: 25vh; 
+    object-fit: cover; 
+     
+}
