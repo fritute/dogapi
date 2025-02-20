@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
+    background-color: purple;
 }
 #galeria{
     display: columns;
@@ -12,7 +12,9 @@ body{
 }
 #galeria img {
     width: 25%; 
-    height: 25vh; 
+    height: 50vh; 
     object-fit: cover; 
+    padding: 10px;
+    border-radius: 10%;
      
 }
